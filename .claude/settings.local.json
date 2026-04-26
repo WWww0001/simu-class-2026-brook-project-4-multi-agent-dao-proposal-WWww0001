@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/王/Desktop/管理建模/**)",
+      "Bash(pip install *)",
+      "Bash(python -m pytest tests/test_milestone_1.py -v)",
+      "Bash(python -c \"from src.master_model import V3MasterModel; print\\('OK'\\)\")",
+      "Bash(python -c \"import mesa; print\\(dir\\(mesa.time\\)\\)\")",
+      "Bash(python -c \"import mesa; help\\(mesa.time.Schedule\\)\")",
+      "Bash(python -c \"import mesa; print\\(mesa.__version__\\)\")",
+      "Bash(python -c ' *)",
+      "Bash(pip show *)",
+      "Bash(python -c \"import mesa; print\\('mesa version:', mesa.__version__\\)\")",
+      "Bash(python experiments/dao_proposal_backtest.py)"
+    ]
+  }
+}
